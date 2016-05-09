@@ -1,0 +1,41 @@
+body {
+    position: relative;
+}
+
+.jumbotron {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.jumbotron p {
+    margin-left: 10px;
+}
+
+img {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    padding: 10px;
+}
+
+a {
+    padding-left: 20px;
+}
+
+#gallery {
+    margin-top: 200px;
+    margin-bottom: 25px;
+}
+
+.carousel {
+    background: #2f4357;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 40%;
+}
+
+.carousel .item img {
+    margin: 0 auto;
+}
