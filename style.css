@@ -1,41 +1,96 @@
 body {
     position: relative;
+    margin-top: 100px;
+    background-color: #773323;
+}
+
+}
+
+#main {
+    background-color: #A15C4C;
+}
+
+.container {
+    background-color: #773323;
 }
 
 .jumbotron {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-image: url(city_glimmers2.png);
 }
 
 .jumbotron p {
     margin-left: 10px;
+    padding: 20px;
+    display: block;
+    width: 50%;
+    background-color: #FFE1D9;
+    color: #3F0D02;
+    border: 4px ridge #773323
 }
 
-img {
+.jumbotron h1 {
     padding: 10px;
+    padding-right: 0px;
+    width: 70%;
+    background-color: #FFE1D9;
+    color: #3F0D02;
+}
+
+.jumbotron img {
+    padding: 10px;
+    margin-top: 25px;
     margin-left: 10px;
+    border: 8px ridge #FFE1D9
 }
 
-h1 {
+.jumbotron a {
+    margin-left: 20px;
+    padding: 15px;
+    background-color: #A15C4C;
+    border: 4px ridge #773323
+}
+
+h2 {
     padding: 10px;
+    background-color: #FFE1D9;
+    color: #3F0D02;
+    font-weight: bold;
+    border: 4px ridge #773323;
 }
 
-a {
-    padding-left: 20px;
+.row {
+    padding: 20px;
+    margin: 30px;
+    background-color: #FFE1D9;
+    color: #3F0D02;
+    font-weight: bold;
+    border: 4px ridge #773323;
 }
 
 #gallery {
     margin-top: 200px;
-    margin-bottom: 25px;
+    margin-bottom: 200px;
 }
 
 .carousel {
-    background: #2f4357;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    background: #773323;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 60px;
     height: 40%;
 }
 
 .carousel .item img {
     margin: 0 auto;
+}
+
+footer {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #3F0D02;
 }
