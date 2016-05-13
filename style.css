@@ -1,9 +1,11 @@
 body {
     position: relative;
     margin-top: 100px;
-    background-color: #773323;
+    background-image: url(city_glimmers2.png);
 }
 
+nav {
+    width: 100%;
 }
 
 #main {
@@ -18,7 +20,7 @@ body {
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 50px;
-    background-image: url(city_glimmers2.png);
+    background-color: #3F0d02;
 }
 
 .jumbotron p {
@@ -61,13 +63,25 @@ h2 {
     border: 4px ridge #773323;
 }
 
+h3 {
+    padding: 10px;
+    color: #FFE1D9;
+    background-color: #773323;
+    font-weight: bold;
+    border: 4px ridge #773323;
+}
+
 .row {
     padding: 20px;
     margin: 30px;
     background-color: #FFE1D9;
-    color: #3F0D02;
-    font-weight: bold;
     border: 4px ridge #773323;
+}
+
+.row ul {
+    padding: 20px;
+    color: #3F0D02;
+    border: 5px outset #773323;
 }
 
 #gallery {
