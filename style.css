@@ -4,10 +4,6 @@ body {
     background-image: url(city_glimmers2.png);
 }
 
-nav {
-    width: 100%;
-}
-
 #main {
     background-color: #A15C4C;
 }
@@ -23,29 +19,34 @@ nav {
     background-color: #3F0d02;
 }
 
-.jumbotron p {
-    margin-left: 10px;
-    padding: 20px;
-    display: block;
-    width: 50%;
-    background-color: #FFE1D9;
-    color: #3F0D02;
-    border: 4px ridge #773323
-}
-
 .jumbotron h1 {
+    margin-left: 10px;
     padding: 10px;
     padding-right: 0px;
-    width: 70%;
+    width: 80%;
     background-color: #FFE1D9;
     color: #3F0D02;
+    text-shadow: 3px 3px 6px #773323;
+    box-shadow: 5px 5px 8px #A15C4C;
 }
 
 .jumbotron img {
     padding: 10px;
     margin-top: 25px;
     margin-left: 10px;
-    border: 8px ridge #FFE1D9
+    border: 8px ridge #FFE1D9;
+    box-shadow: 5px 5px 8px #A15C4C;
+}
+
+.jumbotron p {
+    margin-left: 10px;
+    padding: 20px;
+    display: block;
+    width: 80%;
+    background-color: #FFE1D9;
+    color: #3F0D02;
+    border: 4px ridge #773323;
+    box-shadow: 5px 5px 8px #A15C4C;
 }
 
 .jumbotron a {
@@ -55,20 +56,46 @@ nav {
     border: 4px ridge #773323
 }
 
+.jumbotron a:link {
+    color: #FFE1D9;
+}
+
+.jumbotron a:visited {
+    color: #773323;
+}
+
+.jumbotron a:hover {
+    color: #3F0D02;
+}
+
 h2 {
+    margin: 10px;
     padding: 10px;
     background-color: #FFE1D9;
     color: #3F0D02;
     font-weight: bold;
     border: 4px ridge #773323;
+    box-shadow: 5px 5px 8px #773323;
 }
 
 h3 {
     padding: 10px;
     color: #FFE1D9;
-    background-color: #773323;
+    background-color: #3F0d02;
     font-weight: bold;
     border: 4px ridge #773323;
+    box-shadow: 5px 5px 8px #773323;
+}
+
+h4 {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+h5 {
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .row {
@@ -84,14 +111,22 @@ h3 {
     border: 5px outset #773323;
 }
 
+li {
+    font-weight: 600;
+}
+
+#education li {
+    margin-left: 20px;
+}
+
 #gallery {
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom: 200px;
 }
 
 .carousel {
     background: #773323;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 25px;
     padding: 60px;
     height: 40%;
@@ -107,4 +142,5 @@ footer {
     margin-bottom: 30px;
     padding: 25px;
     background-color: #3F0D02;
+    text-align: center;
 }
