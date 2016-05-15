@@ -1,6 +1,7 @@
 body {
     position: relative;
     margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url(city_glimmers2.png);
 }
 
@@ -10,6 +11,12 @@ body {
 
 .container {
     background-color: #773323;
+}
+
+.navbar-inverse {
+    background-color: #3F0D02;
+    border-color: #773323;
+    color: #FFE1D9;
 }
 
 .jumbotron {
@@ -35,11 +42,12 @@ body {
     margin-top: 25px;
     margin-left: 10px;
     border: 8px ridge #FFE1D9;
-    box-shadow: 5px 5px 8px #A15C4C;
+    box-shadow: 8px 7px 8px #A15C4C;
 }
 
 .jumbotron p {
     margin-left: 10px;
+    margin-bottom: 25px;
     padding: 20px;
     display: block;
     width: 80%;
@@ -56,15 +64,15 @@ body {
     border: 4px ridge #773323
 }
 
-.jumbotron a:link {
+a:link {
     color: #FFE1D9;
 }
 
-.jumbotron a:visited {
+a:visited {
     color: #773323;
 }
 
-.jumbotron a:hover {
+a:hover {
     color: #3F0D02;
 }
 
@@ -88,14 +96,10 @@ h3 {
 }
 
 h4 {
+    padding: 5px;
     font-weight: bolder;
-    text-decoration: underline;
-}
-
-h5 {
-    padding-left: 10px;
-    font-weight: bold;
-    text-decoration: underline;
+    border: 3px ridge #773323;
+    box-shadow: 4px 4px 6px #773323;
 }
 
 .row {
@@ -103,12 +107,14 @@ h5 {
     margin: 30px;
     background-color: #FFE1D9;
     border: 4px ridge #773323;
+    box-shadow: 5px 5px 8px #773323;
 }
 
 .row ul {
     padding: 20px;
     color: #3F0D02;
     border: 5px outset #773323;
+    box-shadow: 4px 4px 6px #773323;
 }
 
 li {
@@ -127,7 +133,7 @@ li {
 .carousel {
     background: #773323;
     margin-top: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     padding: 60px;
     height: 40%;
 }
@@ -136,11 +142,12 @@ li {
     margin: 0 auto;
 }
 
-footer {
+footer p {
     display: block;
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 25px;
+    color: #D29788;
     background-color: #3F0D02;
     text-align: center;
 }
